@@ -2,7 +2,8 @@ These are [Homebrew formulae](https://docs.brew.sh/Taps) for my projects.
 [Homebrew](https://brew.sh) is a package manager for macOS.
 
 Formulae:
- - [nostt](https://github.com/sjmulder/nostt)
+ - [nostt](https://github.com/sjmulder/nostt), a command line NOS Teletekst
+   reader
 
 To install a formula:
 
