@@ -7,8 +7,10 @@ Formulae:
 To install a formula:
 
     brew install sjmulder/tap/NAME
-    # e.g.
-    brew install sjmulder/tap/
+
+For example:
+
+    brew install sjmulder/tap/nostt
 
 Feel free to open an issue here on GitHub or to contact me directly at
 ik@sjmulder.nl if you have any problems, questions or remarks.
