@@ -7,11 +7,6 @@ class Nostt < Formula
   depends_on "curl"
   depends_on "json-c"
 
-  bottle do
-    root_url "https://github.com/sjmulder/nostt/releases/download/1.0/"
-    sha256 "8ec614d2b10c2154f7284d538380c7c48b83259bf8d90c206643ea29eb8e6d67" => :high_sierra
-  end
-
   def install
     system "make"
     bin.install "nostt"
