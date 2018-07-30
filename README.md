@@ -10,6 +10,7 @@ Formulae:
    files.
  - [funjoin](https://github.com/sjmulder/rng), copy ranges of lines from
    stdin to stdout.
+ - [json-yaml](https://github.com/sjmulder/json-yaml), convert JSON to YAML.
 
 Installation:
 
@@ -17,6 +18,7 @@ Installation:
     brew install sjmulder/tap/unjoin
     brew install sjmulder/tap/funjoin
     brew install sjmulder/tap/rng
+    brew install sjmulder/tap/json-yaml
 
 See an overview of all my projects at https://sjmulder.nl/en/projects.html.
 
