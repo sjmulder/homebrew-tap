@@ -11,6 +11,10 @@ Formulae:
  - [funjoin](https://github.com/sjmulder/rng), copy ranges of lines from
    stdin to stdout.
  - [json-yaml](https://github.com/sjmulder/json-yaml), convert JSON to YAML.
+ - [within](https://github.com/sjmulder/within), run a command in other
+   directories
+ - [dated](https://github.com/sjmulder/dated), add a timestamp to every line
+   of a stream
 
 Installation:
 
@@ -19,6 +23,8 @@ Installation:
     brew install sjmulder/tap/funjoin
     brew install sjmulder/tap/rng
     brew install sjmulder/tap/json-yaml
+    brew install sjmulder/tap/within
+    brew install sjmulder/tap/dated
 
 See an overview of all my projects at https://sjmulder.nl/en/projects.html.
 
