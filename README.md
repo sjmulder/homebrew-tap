@@ -12,9 +12,9 @@ Formulae:
    stdin to stdout.
  - [json-yaml](https://github.com/sjmulder/json-yaml), convert JSON to YAML.
  - [within](https://github.com/sjmulder/within), run a command in other
-   directories
+   directories.
  - [dated](https://github.com/sjmulder/dated), add a timestamp to every line
-   of a stream
+   of a stream.
 
 Installation:
 
