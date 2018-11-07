@@ -8,8 +8,8 @@ Formulae:
    separators.
  - [funjoin](https://github.com/sjmulder/funjoin), split separated input into
    files.
- - [funjoin](https://github.com/sjmulder/rng), copy ranges of lines from
-   stdin to stdout.
+ - [rng](https://github.com/sjmulder/rng), copy ranges of lines from stdin to
+   stdout.
  - [json-yaml](https://github.com/sjmulder/json-yaml), convert JSON to YAML.
  - [within](https://github.com/sjmulder/within), run a command in other
    directories.
