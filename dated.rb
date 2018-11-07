@@ -1,8 +1,8 @@
 class Dated < Formula
   desc "Add a timestamp to every line of a stream"
   homepage "https://github.com/sjmulder/dated"
-  url "https://github.com/sjmulder/dated/archive/1.0.tar.gz"
-  sha256 "a020ab605dce1b671061a90d0b674f5eb4cceee90ac4d82472368b80141090f6"
+  url "https://github.com/sjmulder/dated/archive/1.0.1.tar.gz"
+  sha256 "10d345e2f731769b77a6427810ebfe0120a67be4194c36743fbae8fb5b488889"
 
   def install
     system "make"
