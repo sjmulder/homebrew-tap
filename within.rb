@@ -1,8 +1,8 @@
 class Within < Formula
   desc "Run a command in other directories"
   homepage "https://github.com/sjmulder/within"
-  url "https://github.com/sjmulder/within/archive/1.0.tar.gz"
-  sha256 "6e5c4e447085d4248d2316aa94bcc76e77e407b115194b1ff35d823a2a2cad03"
+  url "https://github.com/sjmulder/within/archive/1.1.tar.gz"
+  sha256 "287b460af694dda46d838e820d62d10f95ce2f27408d7b8c44a5a638c383e25b"
 
   def install
     system "make"
