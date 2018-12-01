@@ -15,6 +15,8 @@ Formulae:
    directories.
  - [dated](https://github.com/sjmulder/dated), add a timestamp to every line
    of a stream.
+ - [cycle](https://github.com/sjmulder/cycle), repeat a file or stream
+   forever.
 
 Installation:
 
@@ -25,6 +27,7 @@ Installation:
     brew install sjmulder/tap/json-yaml
     brew install sjmulder/tap/within
     brew install sjmulder/tap/dated
+    brew install sjmulder/tap/cycle
 
 See an overview of all my projects at https://sjmulder.nl/en/projects.html.
 
