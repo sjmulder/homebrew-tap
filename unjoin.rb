@@ -1,16 +1,15 @@
 class Unjoin < Formula
-  desc "Split input lines on separators"
+  desc "Split input on separators"
   homepage "https://github.com/sjmulder/unjoin"
-  url "https://github.com/sjmulder/unjoin/archive/1.0.tar.gz"
-  sha256 "684e4a9c2671ddaa534bf5b314e6a17fae4a8b9e887ae8c82dd533b7821b2f06"
+  license "BSD-2-Clause"
+  url "https://github.com/sjmulder/unjoin/archive/1.1.tar.gz"
+  sha256 "0bb2bf865c503200a5b5b31d0c67dde1a75936b0f47a2363729342707fbae97f"
 
   def install
-    system "make"
-    bin.install "unjoin"
-    man1.install "unjoin.1"
+    system "make", "install", "PREFIX=#{prefix}", "MANPREFIX=#{prefix}/share/man"
   end
 
   test do
-    system "echo one_two | #{bin}/unjoin _ >/dev/null"
+    system "make", "check"
   end
 end
