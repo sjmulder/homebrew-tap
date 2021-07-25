@@ -1,16 +1,15 @@
 class Rng < Formula
   desc "Copy range of lines from stdin to stdout"
   homepage "https://github.com/sjmulder/rng"
-  url "https://github.com/sjmulder/rng/archive/1.0.tar.gz"
-  sha256 "63f1640b8f18cf3f2271481280c54a2f11aa222bf1424cfde04918711c835e3f"
+  license "BSD-2-Clause"
+  url "https://github.com/sjmulder/rng/archive/1.0.1.tar.gz"
+  sha256 "e932042c64820fab6047fd1a3aa80187174dc138c055f118787ca3f02e1fc44d"
 
   def install
-    system "make"
-    bin.install "rng"
-    man1.install "rng.1"
+    system "make", "install", "PREFIX=#{prefix}", "MANPREFIX=#{prefix}/share/man"
   end
 
   test do
-    system "echo test | #{bin}/rng : : >/dev/null"
+    system "make", "test"
   end
 end
