@@ -4,10 +4,7 @@ These are [Homebrew formulae](https://docs.brew.sh/Taps) for my projects.
 Formulae:
  - [nostt](https://github.com/sjmulder/nostt), a command line NOS Teletekst
    reader.
- - [unjoin](https://github.com/sjmulder/unjoin), split input lines on
-   separators.
- - [funjoin](https://github.com/sjmulder/funjoin), split separated input into
-   files.
+ - [unjoin](https://github.com/sjmulder/unjoin), split input on separators.
  - [rng](https://github.com/sjmulder/rng), copy ranges of lines from stdin to
    stdout.
  - [json-yaml](https://github.com/sjmulder/json-yaml), convert JSON to YAML.
@@ -22,7 +19,6 @@ Installation:
 
     brew install sjmulder/tap/nostt
     brew install sjmulder/tap/unjoin
-    brew install sjmulder/tap/funjoin
     brew install sjmulder/tap/rng
     brew install sjmulder/tap/json-yaml
     brew install sjmulder/tap/within
