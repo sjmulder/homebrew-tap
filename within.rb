@@ -1,16 +1,15 @@
 class Within < Formula
   desc "Run a command in other directories"
   homepage "https://github.com/sjmulder/within"
-  url "https://github.com/sjmulder/within/archive/1.1.tar.gz"
-  sha256 "287b460af694dda46d838e820d62d10f95ce2f27408d7b8c44a5a638c383e25b"
+  license "BSD-2-Clause"
+  url "https://github.com/sjmulder/within/archive/1.1.3.tar.gz"
+  sha256 "3b73b5a411407915985334eafcec00d98b469f613d25bc1af61d12f92d77403e"
 
   def install
-    system "make"
-    bin.install "within"
-    man1.install "within.1"
+    system "make", "install", "PREFIX=#{prefix}", "MANPREFIX=#{prefix}/share/man"
   end
 
   test do
-    system "#{bin}/within . ls"
+    system "make", "check"
   end
 end
